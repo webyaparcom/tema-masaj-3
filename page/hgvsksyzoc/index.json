@@ -1,0 +1,39 @@
+{
+  "id": "hgvsksyzoc",
+  "name": {
+    "tr": "Ritüeller",
+    "en": "Rituals",
+    "ar": "طقوس"
+  },
+  "description": {
+    "tr": "Dakikası belli masaj ritüelleri ve KDV dahil kurgusal fiyatlar.",
+    "en": "Massage rituals timed to the minute, with fictional prices incl. VAT.",
+    "ar": "طقوس تدليك محددة بالدقيقة وأسعار افتراضية شاملة الضريبة."
+  },
+  "keyword": {
+    "tr": "masaj ritüeli, masaj fiyatları",
+    "en": "massage ritual, massage prices",
+    "ar": "طقوس التدليك، أسعار التدليك"
+  },
+  "path": "hizmetler",
+  "icon": "spa",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "w09n9z"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ritüeller",
+    "en": "Rituals",
+    "ar": "طقوس"
+  },
+  "date": "2026-11-16T20:21:37.641Z",
+  "update": "2026-11-16T20:27:40.975Z"
+}

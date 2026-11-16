@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kehribar Masaj Odası: İzmir Alsancak’ta akşam saatlerine kadar açık, loş ışıklı masaj odası; dakikası belli ritüeller ve saat eksenli randevu. Demo site; Görseller temsilîdir; içerik ve fiyatlar kurgusaldır.",
+    "en": "Kehribar Massage Room: a dim-lit massage room in Alsancak, Izmir, open into the evening; rituals timed to the minute and a time-axis booking. Demo site; Images are representative; content and prices are fictional.",
+    "ar": "غرفة كهرمان للتدليك: غرفة تدليك بإضاءة خافتة في ألسانجاك بإزمير تفتح حتى المساء؛ طقوس محددة بالدقيقة وحجز على محور زمني. موقع تجريبي؛ الصور تمثيلية؛ والمحتوى والأسعار افتراضية."
+  },
+  "keyword": {
+    "tr": "masaj, akşam masajı, aromaterapi, sıcak taş masajı, İzmir Alsancak masaj",
+    "en": "massage, evening massage, aromatherapy, hot stone massage, Izmir Alsancak massage",
+    "ar": "تدليك، تدليك مسائي، علاج بالروائح، تدليك بالحجر الساخن، تدليك ألسانجاك إزمير"
+  },
+  "category": "Kurumsal",
+  "name": "Kehribar Masaj",
+  "domain": "masaj-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#D4A055",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}

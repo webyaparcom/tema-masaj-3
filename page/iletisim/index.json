@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "تواصل"
+  },
+  "status": "play",
+  "category": "ziezzsrmt1",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 3,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "qc9e0s",
+      "k8mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Telefon, WhatsApp, adres ve saatler.",
+    "en": "Phone, WhatsApp, address and hours.",
+    "ar": "الهاتف وواتساب والعنوان والساعات."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "تواصل"
+  },
+  "keyword": {
+    "tr": "iletişim",
+    "en": "contact",
+    "ar": "اتصال"
+  },
+  "text": {},
+  "update": "2026-11-16T20:27:40.989Z",
+  "date": "2026-10-30"
+}
