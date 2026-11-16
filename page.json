@@ -1,0 +1,111 @@
+{
+  "data": [
+    {
+      "id": "hgvsksyzoc",
+      "name": {
+        "tr": "Ritüeller",
+        "en": "Rituals",
+        "ar": "طقوس"
+      },
+      "description": {
+        "tr": "Dakikası belli masaj ritüelleri ve KDV dahil kurgusal fiyatlar.",
+        "en": "Massage rituals timed to the minute, with fictional prices incl. VAT.",
+        "ar": "طقوس تدليك محددة بالدقيقة وأسعار افتراضية شاملة الضريبة."
+      },
+      "path": "hizmetler",
+      "icon": "spa",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "w09n9z"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Oda",
+        "en": "Space",
+        "ar": "غرفة"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "photo_library",
+      "desing": {
+        "header": [],
+        "body": [
+          "em7f2a",
+          "i1qxmo"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Masaj odasının sahne sahne turu ve gün boyu ışık saatleri.",
+        "en": "A scene-by-scene tour of the massage room and its light through the day.",
+        "ar": "جولة مشهدًا بمشهد في غرفة التدليك وضوئها على مدار اليوم."
+      }
+    },
+    {
+      "id": "ziezzsrmt1",
+      "name": {
+        "tr": "Seans",
+        "en": "Book",
+        "ar": "حجز"
+      },
+      "description": {
+        "tr": "Saat eksenli randevu talebi (demo).",
+        "en": "Time-axis booking request (demo).",
+        "ar": "طلب حجز على محور زمني (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "event_available",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "r1spc9"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "تواصل"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "ziezzsrmt1",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "qc9e0s",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Telefon, WhatsApp, adres ve saatler.",
+        "en": "Phone, WhatsApp, address and hours.",
+        "ar": "الهاتف وواتساب والعنوان والساعات."
+      }
+    }
+  ],
+  "desc": []
+}

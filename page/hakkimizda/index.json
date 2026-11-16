@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Oda",
+    "en": "Space",
+    "ar": "غرفة"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "photo_library",
+  "desing": {
+    "header": [],
+    "body": [
+      "em7f2a",
+      "i1qxmo"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Masaj odasının sahne sahne turu ve gün boyu ışık saatleri.",
+    "en": "A scene-by-scene tour of the massage room and its light through the day.",
+    "ar": "جولة مشهدًا بمشهد في غرفة التدليك وضوئها على مدار اليوم."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Oda",
+    "en": "Space",
+    "ar": "غرفة"
+  },
+  "keyword": {
+    "tr": "masaj odası, Alsancak",
+    "en": "massage room, Alsancak",
+    "ar": "غرفة تدليك، ألسانجاك"
+  },
+  "text": {},
+  "update": "2026-11-16T20:27:40.981Z",
+  "date": "2026-10-30"
+}

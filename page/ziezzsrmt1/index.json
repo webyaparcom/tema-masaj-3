@@ -1,0 +1,39 @@
+{
+  "id": "ziezzsrmt1",
+  "name": {
+    "tr": "Seans",
+    "en": "Book",
+    "ar": "حجز"
+  },
+  "description": {
+    "tr": "Saat eksenli randevu talebi (demo).",
+    "en": "Time-axis booking request (demo).",
+    "ar": "طلب حجز على محور زمني (تجريبي)."
+  },
+  "keyword": {
+    "tr": "masaj randevusu",
+    "en": "massage booking",
+    "ar": "حجز تدليك"
+  },
+  "path": "teklif-al",
+  "icon": "event_available",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "r1spc9"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Seans",
+    "en": "Book",
+    "ar": "حجز"
+  },
+  "date": "2026-11-16T20:21:37.651Z",
+  "update": "2026-11-16T20:27:40.985Z"
+}

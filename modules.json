@@ -1,0 +1,2927 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "k8db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "k8mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "k8hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Emlak",
+          "en": "Real estate",
+          "ar": "عقارات"
+        },
+        "title": {
+          "tr": "Hayalinizdeki yeri birlikte bulalım",
+          "en": "Let's find your dream home together",
+          "ar": "لنجد معًا المكان الذي تحلم به"
+        },
+        "description": {
+          "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
+          "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+        },
+        "btn1Text": {
+          "tr": "İlanları gör",
+          "en": "Browse listings",
+          "ar": "تصفح الإعلانات"
+        },
+        "btn1Url": "ilanlar",
+        "btn2Text": {
+          "tr": "Değerleme",
+          "en": "Valuation",
+          "ar": "التقييم"
+        },
+        "btn2Url": "iletisim"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "k8st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Completed Projects",
+            "ar": "مشروع منجز"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Happy Customers",
+            "ar": "عميل سعيد"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllık Deneyim",
+            "en": "Years of Experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Ekip 1",
+      "path": "team-1",
+      "local": "body",
+      "category": "team",
+      "id": "k8tm01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Ekip",
+          "en": "Team",
+          "ar": "الفريق"
+        },
+        "title": {
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
+        },
+        "description": {
+          "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
+          "en": "Our experienced team is here to add value to your projects.",
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "data": [
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Kurucu / CEO",
+            "en": "Founder / CEO",
+            "ar": "المؤسس / الرئيس التنفيذي"
+          },
+          "bio": {
+            "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
+            "en": "Strategy and management with 10+ years of industry experience.",
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Tasarım Direktörü",
+            "en": "Design Director",
+            "ar": "مدير التصميم"
+          },
+          "bio": {
+            "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
+            "en": "Brand identity and user experience design.",
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Yazılım Geliştirici",
+            "en": "Software Developer",
+            "ar": "مطوّر برمجيات"
+          },
+          "bio": {
+            "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
+            "en": "Scalable solutions with modern web technologies.",
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+          },
+          "img": ""
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "k8ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 6
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "k8ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 7
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "k8mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px 0px 0px 0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 8
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "k8in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 9
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il02",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#masaj-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "u23kx9",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Üst Kısa Etiket — baş harf çemberli, dar ekranda çember menü",
+      "description": "Her sayfa baş harfini taşıyan yuvarlak bir çember + adı; Anasayfa çemberinde ev simgesi. Geniş ekranda çember ve ad yan yana, üzerine gelince çember hafifçe döner. Dar ekranda hamburger yok: yalnız çemberler sıralanır, etkin (ya da odaklanan) sayfanın çemberi adını göstererek hap gibi uzar. JS gerekmez. Hamburger yerine sayfa monogramları: dar ekranda tüm sayfalar tek dokunuşla görünür kalır ama yer kaplamaz; etkin sayfa adıyla açılır — uygulama sekme ikonları gibi. Sayfalar site sayfalarından, dil seçici {{langbar}}, logo {{logo}}. Mobil menü erişilebilir (aria-expanded, Esc, odak). Renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "radio_button_checked",
+      "category": "menu",
+      "subCategory": "monogram-nav",
+      "tags": [
+        "menu",
+        "monogram",
+        "initials",
+        "no-hamburger",
+        "expanding",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "0px",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "cta_ad": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "cta_url": "teklif-al",
+        "tel": "+90 232 046 61 61",
+        "logoimg": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "44px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "44px",
+        "cta": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "eposta": "oda@kehribarmasaj.example"
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "name": "ek bağlantı adı (dil sözlüğü)",
+          "url": "iç yol ya da dış adres (dış adres yeni sekmede)"
+        }
+      },
+      "id": "chmsa3",
+      "path": "ust-kisa-etiket",
+      "local": "header",
+      "index": 12
+    },
+    {
+      "name": "İletişim Randevu Hattı — EKG çizgili iki dev arama / WhatsApp hattı, triyaj kutuları",
+      "description": "Ortalı başlığın altında iki dev hat kartı: telefon (vurgu zeminli) ve WhatsApp (çerçeveli); her kartta ikon karosu, eylem adı, iri numara ve kartın dibinde soldan sağa taranan EKG (kalp ritmi) çizgisi. Altında üst renk çubuklu triyaj kutuları: adres (yol tarifi), çalışma saatleri (saat aralıkları RTL'de ters dönmez), e-posta ve data satırları. iletisim-buyuk-dugmeler eylemleri eşit dev düğme ızgarası yapar, iletisim-telefon-odak tek numara manşetidir; bu modül RANDEVU HATTI: yalnız tel + WhatsApp öne alınır, clip-path polygon EKG çizgisinin içinde background-position ile taranan ışık (hover'da hızlanır), bilgi kanalları border-block-start renk çubuklu triyaj kutuları; saat aralıkları <bdi dir=ltr>. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "monitor_heart",
+      "category": "contact",
+      "subCategory": "appointment-lines",
+      "tags": [
+        "contact",
+        "call",
+        "whatsapp",
+        "appointment",
+        "ekg",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "تواصل"
+        },
+        "baslik": {
+          "tr": "Arayın ya da yazın; saatinizi birlikte bulalım",
+          "en": "Call or write; let us find your time together",
+          "ar": "اتصل أو اكتب لنا لنجد وقتك معًا"
+        },
+        "metin": {
+          "tr": "Telefon 13:00’ten sonra açılır; WhatsApp’a her saat yazabilirsiniz. Masaj tıbbi bir tedavi değildir; ağrı, hastalık ya da gebelik durumunda önce hekiminize danışın.",
+          "en": "The phone is answered from 13:00; you can write on WhatsApp at any time. Massage is not a medical treatment; if you have pain, an illness or are pregnant, consult your doctor first.",
+          "ar": "نردّ على الهاتف بعد الساعة 13:00، ويمكنك الكتابة عبر واتساب في أي وقت. التدليك ليس علاجًا طبيًا؛ في حال وجود ألم أو مرض أو حمل استشر طبيبك أولًا."
+        },
+        "adres": {
+          "tr": "Kıbrıs Şehitleri Caddesi No: 61, Kat 2, Alsancak, Konak, İzmir (kurgusal adres)",
+          "en": "61 Kibris Sehitleri Street, Floor 2, Alsancak, Konak, Izmir (fictional address)",
+          "ar": "شارع شهداء قبرص رقم 61، الطابق 2، ألسانجاك، كوناك، إزمير (عنوان افتراضي)"
+        },
+        "telefon": "+90 232 046 61 61",
+        "eposta": "oda@kehribarmasaj.example",
+        "whatsapp": "902320466161",
+        "saat": {
+          "tr": "Sal–Paz 13:00 – 23:00 · Pazartesi kapalı",
+          "en": "Tue–Sun 13:00 – 23:00 · Closed on Mondays",
+          "ar": "الثلاثاء–الأحد 13:00 – 23:00 · مغلق يوم الاثنين"
+        },
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": {
+          "tr": "Merhaba Kehribar, bir seans için bilgi almak istiyorum.",
+          "en": "Hello Kehribar, I would like information about a session.",
+          "ar": "مرحبًا كهرمان، أودّ الاستفسار عن جلسة."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "gonderim": "mailto",
+        "address": {
+          "tr": "Kıbrıs Şehitleri Caddesi No: 61, Kat 2, Alsancak, Konak, İzmir (kurgusal adres)",
+          "en": "61 Kibris Sehitleri Street, Floor 2, Alsancak, Konak, Izmir (fictional address)",
+          "ar": "شارع شهداء قبرص رقم 61، الطابق 2، ألسانجاك، كوناك، إزمير (عنوان افتراضي)"
+        },
+        "phone": "+90 232 046 61 61",
+        "email": "oda@kehribarmasaj.example",
+        "hours": {
+          "tr": "Sal–Paz 13:00 – 23:00 · Pazartesi kapalı",
+          "en": "Tue–Sun 13:00 – 23:00 · Closed on Mondays",
+          "ar": "الثلاثاء–الأحد 13:00 – 23:00 · مغلق يوم الاثنين"
+        },
+        "social": [],
+        "title": {
+          "tr": "Arayın ya da yazın; saatinizi birlikte bulalım",
+          "en": "Call or write; let us find your time together",
+          "ar": "اتصل أو اكتب لنا لنجد وقتك معًا"
+        },
+        "description": {
+          "tr": "Masaj tıbbi bir tedavi değildir; ağrı, hastalık ya da gebelik durumunda önce hekiminize danışın.",
+          "en": "Massage is not a medical treatment; if you have pain, an illness or are pregnant, consult your doctor first.",
+          "ar": "التدليك ليس علاجًا طبيًا؛ في حال وجود ألم أو مرض أو حمل استشر طبيبك أولًا."
+        },
+        "panelTitle": {
+          "tr": "Kehribar Masaj",
+          "en": "Kehribar Masaj",
+          "ar": "Kehribar Masaj"
+        },
+        "panelText": {
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
+          "en": "Images are representative; this is a setup demo.",
+          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+        },
+        "formTitle": {
+          "tr": "Teklif formu",
+          "en": "Quote form",
+          "ar": "نموذج الطلب"
+        },
+        "subjects": [
+          {
+            "id": "a",
+            "name": {
+              "tr": "Yeni talep",
+              "en": "New request",
+              "ar": "طلب جديد"
+            }
+          },
+          {
+            "id": "b",
+            "name": {
+              "tr": "Ölçü ve keşif",
+              "en": "Measure and survey",
+              "ar": "قياس واستقصاء"
+            }
+          },
+          {
+            "id": "c",
+            "name": {
+              "tr": "Teknik soru",
+              "en": "Technical question",
+              "ar": "سؤال فني"
+            }
+          },
+          {
+            "id": "d",
+            "name": {
+              "tr": "Diğer",
+              "en": "Other",
+              "ar": "أخرى"
+            }
+          }
+        ],
+        "kvkkText": {
+          "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
+          "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "kvkkHref": "kisiselveriler",
+        "telAd": {
+          "tr": "Telefon",
+          "en": "Phone",
+          "ar": "الهاتف"
+        },
+        "araAd": {
+          "tr": "Hemen arayın",
+          "en": "Call now",
+          "ar": "اتصل الآن"
+        },
+        "waAd": {
+          "tr": "WhatsApp",
+          "en": "WhatsApp",
+          "ar": "واتساب"
+        },
+        "waDugme": {
+          "tr": "WhatsApp’tan yazın",
+          "en": "Write on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "epostaAd": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "yazAd": {
+          "tr": "E-posta gönderin",
+          "en": "Send an e-mail",
+          "ar": "أرسل بريدًا"
+        },
+        "adresAd": {
+          "tr": "Adres",
+          "en": "Address",
+          "ar": "العنوان"
+        },
+        "yolAd": {
+          "tr": "Yol tarifi",
+          "en": "Directions",
+          "ar": "الاتجاهات"
+        },
+        "saatAd": {
+          "tr": "Saatler",
+          "en": "Hours",
+          "ar": "الساعات"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      },
+      "id": "qc9e0s",
+      "path": "iletisim-randevu-hat",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Spa Ritüel Şerit — paket başına süreyle orantılı adım şeridi ve adım açıklaması",
+      "description": "Her ritüel paketi bir satır: solda ikon, ad, rozet, toplam süre (adımlardan hesaplanır) ve fiyat; sağda adımların süresiyle orantılı genişlikte bölümlerden oluşan yatay şerit (hamam · kese · köpük · masaj …). Bölüme tıklanınca/üzerine gelince şerit altındaki satır o adımı anlatır. Kayıt alanı: `adimlar` [{ ad, dk, acik }] (dil sözlüğü). Dar ekranda şerit dikey, yüksekliği süreyle orantılı bloklara döner. JS yokken adımlar açıklamalarıyla liste. tanitim-numarali/tanitim-serit-maddeler'in eşit madde satırlarından ve otopark-sure-cetveli'nin tek eksen cetvelinden farkı: her kayıt kendi içinde süre-orantılı yığılmış bir şerit taşır (paket başına zaman bütçesi), toplam süre adımlardan türetilir ve adım seçimi açıklama satırını değiştirir. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "spa",
+      "category": "module",
+      "subCategory": "ritual-timeline-bar",
+      "tags": [
+        "module",
+        "spa",
+        "packages",
+        "duration-bar",
+        "steps",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1160px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Ritüeller",
+          "en": "Rituals",
+          "ar": "الطقوس"
+        },
+        "baslik": {
+          "tr": "Her ritüelin dakikaları belli",
+          "en": "Every ritual, minute by minute",
+          "ar": "لكل طقس دقائقه المعلومة"
+        },
+        "metin": {
+          "tr": "Şeritteki bölümlere dokunun; o adımda ne olduğunu okuyun. Fiyatlar KDV dahil ve kurgusaldır. Masaj tıbbi bir tedavi değildir; ağrı, hastalık ya da gebelik durumunda önce hekiminize danışın.",
+          "en": "Tap a segment of the strip to read what happens in that step. Prices include VAT and are fictional. Massage is not a medical treatment; if you have pain, an illness or are pregnant, consult your doctor first.",
+          "ar": "المس أي جزء من الشريط لتقرأ ما يجري في تلك الخطوة. الأسعار شاملة الضريبة وافتراضية. التدليك ليس علاجًا طبيًا؛ في حال وجود ألم أو مرض أو حمل استشر طبيبك أولًا."
+        },
+        "img": "klinik-tedavi-3.webp",
+        "img2": "",
+        "cta_ad": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "cta_url": "teklif-al",
+        "cta2_ad": {
+          "tr": "Odayı gezin",
+          "en": "Tour the room",
+          "ar": "تجوّل في الغرفة"
+        },
+        "cta2_url": "hakkimizda",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "paraBirimi": "TRY",
+        "dkAd": {
+          "tr": "dk",
+          "en": "min",
+          "ar": "دقيقة"
+        },
+        "toplamAd": {
+          "tr": "Toplam",
+          "en": "Total",
+          "ar": "المجموع"
+        },
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "title": {
+          "tr": "Ritüeller",
+          "en": "Rituals",
+          "ar": "الطقوس"
+        },
+        "name": {
+          "tr": "Her ritüelin dakikaları belli",
+          "en": "Every ritual, minute by minute",
+          "ar": "لكل طقس دقائقه المعلومة"
+        },
+        "description": {
+          "tr": "Masaj tıbbi bir tedavi değildir; ağrı, hastalık ya da gebelik durumunda önce hekiminize danışın.",
+          "en": "Massage is not a medical treatment; if you have pain, an illness or are pregnant, consult your doctor first.",
+          "ar": "التدليك ليس علاجًا طبيًا؛ في حال وجود ألم أو مرض أو حمل استشر طبيبك أولًا."
+        },
+        "name2": {
+          "tr": "Isıtılmış havlu",
+          "en": "Warmed towels",
+          "ar": "مناشف دافئة"
+        },
+        "spot2": {
+          "tr": "Her konuğa yeni ve ılık.",
+          "en": "Fresh and warm for every guest.",
+          "ar": "جديدة ودافئة لكل ضيف."
+        },
+        "icon2": "dry_cleaning",
+        "name3": {
+          "tr": "Sessiz oda",
+          "en": "Quiet room",
+          "ar": "غرفة هادئة"
+        },
+        "spot3": {
+          "tr": "Seans boyunca telefon yok.",
+          "en": "No phones during the session.",
+          "ar": "لا هواتف أثناء الجلسة."
+        },
+        "icon3": "do_not_disturb_on"
+      },
+      "data": [
+        {
+          "ikon": "local_fire_department",
+          "baslik": {
+            "tr": "Kehribar akşamı",
+            "en": "Kehribar evening",
+            "ar": "أمسية كهرمان"
+          },
+          "rozet": {
+            "tr": "İmza ritüel",
+            "en": "Signature",
+            "ar": "الطقس المميز"
+          },
+          "fiyat": 2400,
+          "metin": {
+            "tr": "Ayak banyosuyla başlayan, ılık yağlı tüm vücut masajı ve sessiz dinlenmeyle biten uzun akşam ritüeli.",
+            "en": "A long evening ritual: it starts with a foot bath, continues with a full-body warm-oil massage and ends with quiet rest.",
+            "ar": "طقس مسائي طويل يبدأ بحمّام للقدمين ثم تدليك كامل للجسم بزيت دافئ وينتهي باستراحة هادئة."
+          },
+          "adimlar": [
+            {
+              "ad": {
+                "tr": "Çay",
+                "en": "Tea",
+                "ar": "شاي"
+              },
+              "dk": 10,
+              "acik": {
+                "tr": "Ihlamur çayı ve kısa bir ön görüşme: baskı tercihi, kaçınılacak bölgeler.",
+                "en": "Linden tea and a short chat: pressure preference and areas to avoid.",
+                "ar": "شاي الزيزفون وحديث قصير: درجة الضغط المفضلة والمناطق التي يجب تجنبها."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Ayak",
+                "en": "Feet",
+                "ar": "قدمان"
+              },
+              "dk": 10,
+              "acik": {
+                "tr": "Ilık su, deniz tuzu ve portakal kabuğuyla ayak banyosu.",
+                "en": "A foot bath with warm water, sea salt and orange peel.",
+                "ar": "حمّام للقدمين بماء دافئ وملح بحري وقشر برتقال."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Yağ masajı",
+                "en": "Oil massage",
+                "ar": "تدليك بالزيت"
+              },
+              "dk": 55,
+              "acik": {
+                "tr": "Isıtılmış badem yağıyla uzun ve yavaş hareketli tüm vücut masajı.",
+                "en": "A full-body massage with long, slow strokes and warmed almond oil.",
+                "ar": "تدليك كامل للجسم بحركات طويلة وبطيئة وزيت لوز دافئ."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Dinlenme",
+                "en": "Rest",
+                "ar": "استراحة"
+              },
+              "dk": 15,
+              "acik": {
+                "tr": "Işık kısık, müzik alçak; acele etmeden kalkarsınız.",
+                "en": "Lights low, music soft; you get up without hurry.",
+                "ar": "الإضاءة خافتة والموسيقى هادئة؛ تنهض دون عجلة."
+              }
+            }
+          ]
+        },
+        {
+          "ikon": "spa",
+          "baslik": {
+            "tr": "Klasik masaj",
+            "en": "Classic massage",
+            "ar": "التدليك الكلاسيكي"
+          },
+          "rozet": {
+            "tr": "İlk ziyaret",
+            "en": "First visit",
+            "ar": "الزيارة الأولى"
+          },
+          "fiyat": 1500,
+          "metin": {
+            "tr": "Orta baskılı, tanıdık hareketlerle tüm vücut masajı; ilk kez gelenler için.",
+            "en": "A full-body massage with medium pressure and familiar strokes; for first-timers.",
+            "ar": "تدليك كامل للجسم بضغط متوسط وحركات مألوفة؛ لمن يأتي أول مرة."
+          },
+          "adimlar": [
+            {
+              "ad": {
+                "tr": "Isınma",
+                "en": "Warm-up",
+                "ar": "تدفئة"
+              },
+              "dk": 10,
+              "acik": {
+                "tr": "Kısa ön görüşme ve sağlık sorusu (gerekirse önce hekim); sırta ılık havlu.",
+                "en": "A short chat and a health question (a doctor first if needed); a warm towel on the back.",
+                "ar": "حديث قصير وسؤال صحي (والطبيب أولًا عند الحاجة)؛ ومنشفة دافئة على الظهر."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Masaj",
+                "en": "Massage",
+                "ar": "تدليك"
+              },
+              "dk": 45,
+              "acik": {
+                "tr": "Sırt, bacak, kol ve omuzlarda orta baskı.",
+                "en": "Medium pressure on back, legs, arms and shoulders.",
+                "ar": "ضغط متوسط على الظهر والساقين والذراعين والكتفين."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Çay",
+                "en": "Tea",
+                "ar": "شاي"
+              },
+              "dk": 5,
+              "acik": {
+                "tr": "Dinlenme köşesinde bir bardak bitki çayı.",
+                "en": "A cup of herbal tea in the rest corner.",
+                "ar": "كوب من شاي الأعشاب في ركن الاستراحة."
+              }
+            }
+          ]
+        },
+        {
+          "ikon": "heat",
+          "baslik": {
+            "tr": "Sıcak taş",
+            "en": "Hot stones",
+            "ar": "الحجارة الساخنة"
+          },
+          "rozet": {
+            "tr": "Akşam saatleri",
+            "en": "Evening hours",
+            "ar": "ساعات المساء"
+          },
+          "fiyat": 2100,
+          "metin": {
+            "tr": "Ilık bazalt taşlarla yapılan, sıcaklığı sürekli kontrol edilen sakin bir masaj.",
+            "en": "A calm massage with warm basalt stones whose temperature is checked throughout.",
+            "ar": "تدليك هادئ بحجارة بازلتية دافئة تُراقَب حرارتها باستمرار."
+          },
+          "adimlar": [
+            {
+              "ad": {
+                "tr": "Taşlar",
+                "en": "Stones",
+                "ar": "حجارة"
+              },
+              "dk": 15,
+              "acik": {
+                "tr": "Sıcaklık tercihi sorulur, taşlar elde denenir ve havlu üzerinden sırta dizilir.",
+                "en": "We ask about your heat preference, test the stones on your hand and lay them on your back over a towel.",
+                "ar": "نسأل عن الحرارة المفضلة ونجرب الحجارة على يدك ثم نضعها على ظهرك فوق منشفة."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Taş masajı",
+                "en": "Stone massage",
+                "ar": "تدليك بالحجارة"
+              },
+              "dk": 50,
+              "acik": {
+                "tr": "Yağlı ve ılık taşlarla yavaş masaj.",
+                "en": "A slow massage with oiled, warm stones.",
+                "ar": "تدليك بطيء بحجارة دافئة مدهونة بالزيت."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Dinlenme",
+                "en": "Rest",
+                "ar": "استراحة"
+              },
+              "dk": 10,
+              "acik": {
+                "tr": "Battaniye altında birkaç sessiz dakika.",
+                "en": "A few quiet minutes under a blanket.",
+                "ar": "دقائق هادئة تحت بطانية."
+              }
+            }
+          ]
+        },
+        {
+          "ikon": "self_improvement",
+          "baslik": {
+            "tr": "Baş, boyun, omuz",
+            "en": "Head, neck, shoulders",
+            "ar": "الرأس والرقبة والكتفان"
+          },
+          "rozet": {
+            "tr": "Kısa mola",
+            "en": "Short break",
+            "ar": "استراحة قصيرة"
+          },
+          "fiyat": 850,
+          "metin": {
+            "tr": "İş çıkışı için oturarak ya da uzanarak yapılan kısa masaj.",
+            "en": "A short after-work massage, seated or lying down.",
+            "ar": "تدليك قصير بعد العمل جالسًا أو مستلقيًا."
+          },
+          "adimlar": [
+            {
+              "ad": {
+                "tr": "Masaj",
+                "en": "Massage",
+                "ar": "تدليك"
+              },
+              "dk": 25,
+              "acik": {
+                "tr": "Oturarak ya da uzanarak; saçlı deri, ense ve omuzlarda hafif baskı.",
+                "en": "Seated or lying down; light pressure on the scalp, nape and shoulders.",
+                "ar": "جالسًا أو مستلقيًا؛ ضغط خفيف على فروة الرأس والقفا والكتفين."
+              }
+            },
+            {
+              "ad": {
+                "tr": "Çay",
+                "en": "Tea",
+                "ar": "شاي"
+              },
+              "dk": 5,
+              "acik": {
+                "tr": "Çıkmadan önce bir bardak ıhlamur.",
+                "en": "A cup of linden tea before you leave.",
+                "ar": "كوب من شاي الزيزفون قبل المغادرة."
+              }
+            }
+          ]
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
+      },
+      "id": "w09n9z",
+      "path": "spa-rituel-serit",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Alt Dev Liste — sayfalar afiş puntosunda satır satır, kayan vurgu",
+      "description": "Satırın büyük bölümünde site sayfaları numaralı, dev puntolu satırlar: üstüne gelince vurgu zemini satır boyunca dolar, ok belirir, yazı içe kayar; yan sütunda logo, tanıtım, bağlantılar, iletişim, saatler ve sosyal; altta telif, yasal, dil, başa dön. Gezinme küçük bağlantı sütunu değil, footer'ın ana gövdesi: az sayfalı sitelerde her sayfa bir manşet satırı gibi davet eder (dokunma alanı büyük, mobil dostu). Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "format_list_bulleted",
+      "category": "footer",
+      "subCategory": "big-link-list",
+      "tags": [
+        "footer",
+        "big-links",
+        "typographic",
+        "index",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(48px, 6vw, 80px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": {
+          "tr": "Bu akşam bir saat ayırın",
+          "en": "Set aside an hour this evening",
+          "ar": "خصّص ساعة هذا المساء"
+        },
+        "metin": {
+          "tr": "Masaj tıbbi bir tedavi değildir; ağrı, hastalık ya da gebelik durumunda önce hekiminize danışın.",
+          "en": "Massage is not a medical treatment; if you have pain, an illness or are pregnant, consult your doctor first.",
+          "ar": "التدليك ليس علاجًا طبيًا؛ في حال وجود ألم أو مرض أو حمل استشر طبيبك أولًا."
+        },
+        "hakkinda": {
+          "tr": "Alsancak’ta akşam saatlerine kadar açık, loş ışıklı masaj odası. Kurgusal demo; Görseller temsilîdir; içerik ve fiyatlar kurgusaldır.",
+          "en": "A dim-lit massage room in Alsancak, open into the evening. Fictional demo; Images are representative; content and prices are fictional.",
+          "ar": "غرفة تدليك بإضاءة خافتة في ألسانجاك تفتح حتى المساء. عرض تجريبي افتراضي؛ الصور تمثيلية؛ والمحتوى والأسعار افتراضية."
+        },
+        "tel": "+90 232 046 61 61",
+        "eposta": "oda@kehribarmasaj.example",
+        "adres": {
+          "tr": "Kıbrıs Şehitleri Caddesi No: 61, Kat 2, Alsancak, Konak, İzmir (kurgusal adres)",
+          "en": "61 Kibris Sehitleri Street, Floor 2, Alsancak, Konak, Izmir (fictional address)",
+          "ar": "شارع شهداء قبرص رقم 61، الطابق 2، ألسانجاك، كوناك، إزمير (عنوان افتراضي)"
+        },
+        "cta_ad": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "cta_url": "teklif-al",
+        "rightsText": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "48px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "showlang": true,
+        "maxpages": 8,
+        "nlShow": true,
+        "nlGonderim": "mailto",
+        "about": {
+          "tr": "Alsancak’ta akşam saatlerine kadar açık, loş ışıklı masaj odası. Kurgusal demo; Görseller temsilîdir; içerik ve fiyatlar kurgusaldır.",
+          "en": "A dim-lit massage room in Alsancak, open into the evening. Fictional demo; Images are representative; content and prices are fictional.",
+          "ar": "غرفة تدليك بإضاءة خافتة في ألسانجاك تفتح حتى المساء. عرض تجريبي افتراضي؛ الصور تمثيلية؛ والمحتوى والأسعار افتراضية."
+        },
+        "address": {
+          "tr": "Kıbrıs Şehitleri Caddesi No: 61, Kat 2, Alsancak, Konak, İzmir (kurgusal adres)",
+          "en": "61 Kibris Sehitleri Street, Floor 2, Alsancak, Konak, Izmir (fictional address)",
+          "ar": "شارع شهداء قبرص رقم 61، الطابق 2، ألسانجاك، كوناك، إزمير (عنوان افتراضي)"
+        },
+        "phone": "+90 232 046 61 61",
+        "email": "oda@kehribarmasaj.example",
+        "social": [],
+        "legal": [
+          {
+            "name": {
+              "tr": "KVKK",
+              "en": "Privacy (KVKK)",
+              "ar": "حماية البيانات"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "name": {
+              "tr": "Gizlilik",
+              "en": "Privacy policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "name": {
+              "tr": "Yasal uyarı",
+              "en": "Legal notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "nlTitle": {
+          "tr": "Haberdar olun",
+          "en": "Stay informed",
+          "ar": "ابقَ على اطلاع"
+        },
+        "nlText": {
+          "tr": "Yeni duyurular için e-posta bırakın. Bu demo sitede veri saklanmaz.",
+          "en": "Leave your e-mail for new announcements. No data is stored on this demo site.",
+          "ar": "اترك بريدك الإلكتروني للإعلانات الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+        },
+        "nlKvkk": {
+          "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
+          "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+        },
+        "services": [
+          {
+            "name": {
+              "tr": "Ritüeller",
+              "en": "Rituals",
+              "ar": "الطقوس"
+            },
+            "href": "hizmetler"
+          },
+          {
+            "name": {
+              "tr": "Seans",
+              "en": "Booking",
+              "ar": "الحجز"
+            },
+            "href": "teklif-al"
+          },
+          {
+            "name": {
+              "tr": "Yol tarifi",
+              "en": "Directions",
+              "ar": "الاتجاهات"
+            },
+            "href": "iletisim"
+          }
+        ],
+        "hours": [
+          {
+            "days": {
+              "tr": "Salı–Pazar",
+              "en": "Tuesday–Sunday",
+              "ar": "الثلاثاء–الأحد"
+            },
+            "time": "13:00 – 23:00"
+          },
+          {
+            "days": {
+              "tr": "Pazartesi",
+              "en": "Monday",
+              "ar": "الاثنين"
+            },
+            "time": {
+              "tr": "Kapalı",
+              "en": "Closed",
+              "ar": "مغلق"
+            }
+          }
+        ],
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_services": {
+          "tr": "Kısa yollar",
+          "en": "Shortcuts",
+          "ar": "اختصارات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "التواصل"
+        },
+        "title_hours": {
+          "tr": "Saatler",
+          "en": "Hours",
+          "ar": "الساعات"
+        },
+        "title_social": {
+          "tr": "Bizi izleyin",
+          "en": "Follow us",
+          "ar": "تابعنا"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+          "tel": "telefon (yoksa setting.phone)",
+          "eposta": "e-posta (yoksa setting.email)",
+          "adres": "adres (dil sözlüğü; yoksa setting.address)",
+          "services": "bağlantı listesi [{ name, href }] (footer-10)",
+          "hours": "çalışma saatleri [{ days, time }]",
+          "legal": "yasal bağlantılar [{ text, href }]",
+          "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+          "rightsText": "telif satırı (yoksa @all-rights@)",
+          "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+        }
+      },
+      "id": "nm4v17",
+      "path": "alt-dev-liste",
+      "local": "footer",
+      "index": 15
+    },
+    {
+      "name": "Galeri Yapışkan Kart — kaydırdıkça üst üste yığılan tam genişlik kartlar",
+      "description": "Her görsel tam genişlikte yatay bir kart (geniş görsel + sıra «03 / 07», kategori, büyük ad, açıklama); kartlar position: sticky ile her biri öncekinden biraz aşağıda durur, sayfa kaydırıldıkça yenisi eskisinin üstüne kayar ve deste oluşur. Çift kartlarda görsel öbür yana geçer. Betik yok; mobilde görsel üstte; hareket azaltılınca (ya da alçak ekranda) yapışma kapanır, kartlar düz liste olarak akar. galeri-yigin görselleri durağan bir kolajda örtüştürür, galeri-kenar-baslik yalnız başlığı yapıştırır, galeri-numarali zikzak satırları akıp gider. Bu modülde KARTLARIN kendisi yapışkandır (artan inset-block-start, --i): kaydırma hareketi kartları üst üste toplar; mekân/hizmet turunu sahne sahne anlatır. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "dynamic_feed",
+      "category": "galeri",
+      "subCategory": "sticky-stack",
+      "tags": [
+        "galeri",
+        "sticky",
+        "stack",
+        "scroll",
+        "story",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Kehribar Masaj Odası · Alsancak, İzmir",
+          "en": "Kehribar Massage Room · Alsancak, Izmir",
+          "ar": "غرفة كهرمان للتدليك · ألسانجاك، إزمير"
+        },
+        "baslik": {
+          "tr": "Akşam ışığında bir masaj odası",
+          "en": "A massage room in evening light",
+          "ar": "غرفة تدليك على ضوء المساء"
+        },
+        "metin": {
+          "tr": "Odayı kart kart gezin: kaydırdıkça sahneler üst üste yığılır. Gün batımından sonra da randevu verilir. Görseller temsilîdir; içerik ve fiyatlar kurgusaldır.",
+          "en": "Tour the room card by card: scenes stack as you scroll. Bookings continue after sunset. Images are representative; content and prices are fictional.",
+          "ar": "تجوّل في الغرفة بطاقة بعد بطاقة: تتراكم المشاهد أثناء التمرير. ونستقبل الحجوزات بعد الغروب أيضًا. الصور تمثيلية؛ والمحتوى والأسعار افتراضية."
+        },
+        "tumu": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "cats": [
+          {
+            "id": "oda",
+            "name": {
+              "tr": "Oda",
+              "en": "Room",
+              "ar": "الغرفة"
+            }
+          },
+          {
+            "id": "rituel",
+            "name": {
+              "tr": "Ritüel",
+              "en": "Ritual",
+              "ar": "الطقس"
+            }
+          },
+          {
+            "id": "dinlenme",
+            "name": {
+              "tr": "Dinlenme",
+              "en": "Rest",
+              "ar": "الاستراحة"
+            }
+          }
+        ],
+        "cta_ad": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "cta_url": "teklif-al",
+        "cta2_ad": {
+          "tr": "Ritüelleri gör",
+          "en": "See the rituals",
+          "ar": "شاهد الطقوس"
+        },
+        "cta2_url": "hizmetler"
+      },
+      "data": [
+        {
+          "img": "/img/guzellik-hizmet-masaj.webp",
+          "kat": "oda",
+          "baslik": {
+            "tr": "Kehribar oda",
+            "en": "The amber room",
+            "ar": "الغرفة الكهرمانية"
+          },
+          "alt": {
+            "tr": "Mum ışığında, havluları katlanmış iki masaj masası",
+            "en": "Two massage tables with folded towels in candlelight",
+            "ar": "طاولتا تدليك بمناشف مطوية على ضوء الشموع"
+          },
+          "metin": {
+            "tr": "İki masa, alçak ışık, 24 °C. Çiftler aynı odada yan yana uzanabilir.",
+            "en": "Two tables, low light, 24 °C. Couples can lie side by side in the same room.",
+            "ar": "طاولتان وإضاءة منخفضة و24 درجة مئوية. يمكن للأزواج الاستلقاء جنبًا إلى جنب في الغرفة نفسها."
+          },
+          "w": 1600,
+          "h": 1000
+        },
+        {
+          "img": "/img/guzellik-ekip-2.webp",
+          "kat": "rituel",
+          "baslik": {
+            "tr": "Havlu hazırlığı",
+            "en": "Preparing the towels",
+            "ar": "تحضير المناشف"
+          },
+          "alt": {
+            "tr": "Masaj masasında havlu katlayan eller",
+            "en": "Hands folding a towel on a massage table",
+            "ar": "يدان تطويان منشفة على طاولة التدليك"
+          },
+          "metin": {
+            "tr": "Her konuk için yeni ve ılık havlu; çarşaflar her seansta değişir.",
+            "en": "Fresh, warm towels for every guest; sheets are changed every session.",
+            "ar": "مناشف جديدة ودافئة لكل ضيف؛ وتُبدَّل الشراشف في كل جلسة."
+          },
+          "w": 1600,
+          "h": 1000
+        },
+        {
+          "img": "/img/guzellik-hizmet-spa.webp",
+          "kat": "rituel",
+          "baslik": {
+            "tr": "Ritüel tepsisi",
+            "en": "The ritual tray",
+            "ar": "صينية الطقس"
+          },
+          "alt": {
+            "tr": "Ahşap kasede gül yaprakları, kavanozda pembe tuz ve yanan mum",
+            "en": "Rose petals in a wooden bowl, pink salt in a jar and a lit candle",
+            "ar": "بتلات ورد في وعاء خشبي وملح وردي في برطمان وشمعة مضاءة"
+          },
+          "metin": {
+            "tr": "Ayak banyosu tuzu ve yağlar; içerik listesi seanstan önce paylaşılır.",
+            "en": "Foot-bath salt and oils; the ingredient list is shared before the session.",
+            "ar": "ملح حمّام القدمين والزيوت؛ تُشارك قائمة المكونات قبل الجلسة."
+          },
+          "w": 1600,
+          "h": 1000
+        },
+        {
+          "img": "/img/klinik-tedavi-3.webp",
+          "kat": "dinlenme",
+          "baslik": {
+            "tr": "Okaliptüslü havlu",
+            "en": "Eucalyptus towel",
+            "ar": "منشفة بالأوكالبتوس"
+          },
+          "alt": {
+            "tr": "Okaliptüs dalıyla katlanmış beyaz havlular",
+            "en": "Folded white towels with a eucalyptus sprig",
+            "ar": "مناشف بيضاء مطوية مع غصن أوكالبتوس"
+          },
+          "metin": {
+            "tr": "Seans sonunda yüze konan serin havlu.",
+            "en": "A cool towel placed on the face at the end of the session.",
+            "ar": "منشفة باردة توضع على الوجه في نهاية الجلسة."
+          },
+          "w": 1600,
+          "h": 1000
+        },
+        {
+          "img": "/img/otel-oda-2.webp",
+          "kat": "dinlenme",
+          "baslik": {
+            "tr": "Balkonda çay",
+            "en": "Tea on the balcony",
+            "ar": "شاي على الشرفة"
+          },
+          "alt": {
+            "tr": "Hasır sandalyeli balkona açılan aydınlık oda",
+            "en": "A bright room opening onto a balcony with a wicker chair",
+            "ar": "غرفة مضيئة تطل على شرفة بكرسي من الخيزران"
+          },
+          "metin": {
+            "tr": "Masajdan sonra acele yok: ıhlamur ve on dakika sessizlik.",
+            "en": "No rush after the massage: linden tea and ten minutes of quiet.",
+            "ar": "لا عجلة بعد التدليك: شاي الزيزفون وعشر دقائق من الهدوء."
+          },
+          "w": 1600,
+          "h": 1000
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "img": "görsel yolu (boşsa yer tutucu)",
+          "baslik": "dil sözlüğü (resim adı)",
+          "alt": "dil sözlüğü (boşsa başlık)",
+          "metin": "dil sözlüğü (kısa açıklama)",
+          "kat": "kategori kimliği (desing.cats id'si)",
+          "url": "iç/dış bağlantı",
+          "w": "görsel genişliği (px, oran için)",
+          "h": "görsel yüksekliği (px)",
+          "kucuk": "küçük görsel (varsa ızgarada bu)"
+        }
+      },
+      "id": "em7f2a",
+      "path": "galeri-yapiskan-kart",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Zaman Kadran — saat kadranında dönen ibreyle dönem seçimi",
+      "description": "Yuvarlak kadran: dönemler çember üzerinde yıl yazılı dilimlerdir (dakika çentikli dış halka); seçilen dilime ibre döner, seçime kadar dolan yay halkası çizilir, merkez diskte yıl + ikon; yanda seçilen dönemin paneli (yıl, başlık, metin, varsa görsel). Ok tuşları (RTL'de ters) dilimler arasında gezer. JS yokken dilimler panellere çapa bağlantısıdır ve tüm paneller alt alta görünür. Mevcut seçmeli modüller (zaman-sekme-yil sekme şeridi, zaman-kurulus-surgu doğrusal kaydırıcı) zamanı düz bir çizgide seçtirir; zaman-kadran dairesel iskelettir: çember üzerine dizilmiş yıl dilimleri, dönen ibre, ilerleme yayı ve merkez disk — döngüsel/ritüel zaman (seans, mevsim, burç) dili. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "schedule",
+      "category": "timeline",
+      "subCategory": "dial",
+      "tags": [
+        "timeline",
+        "dial",
+        "radial",
+        "needle",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Odanın saatleri",
+          "en": "The room’s hours",
+          "ar": "ساعات الغرفة"
+        },
+        "baslik": {
+          "tr": "Işık gün boyu değişir",
+          "en": "The light changes through the day",
+          "ar": "يتغير الضوء على مدار اليوم"
+        },
+        "metin": {
+          "tr": "Kadranda bir saate dokunun: o saatte oda nasıl, hangi seanslar uygun? Ok tuşlarıyla da gezebilirsiniz.",
+          "en": "Tap an hour on the dial: what is the room like then, and which sessions suit it? You can also use the arrow keys.",
+          "ar": "المس ساعة على القرص: كيف تكون الغرفة حينها، وأي الجلسات تناسبها؟ يمكنك أيضًا استخدام مفاتيح الأسهم."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "cta_ad": {
+          "tr": "Randevu al",
+          "en": "Book a session",
+          "ar": "احجز جلسة"
+        },
+        "cta_url": "teklif-al"
+      },
+      "data": [
+        {
+          "etiket": "13:00",
+          "ikon": "light_mode",
+          "baslik": {
+            "tr": "Gün ışığı",
+            "en": "Daylight",
+            "ar": "ضوء النهار"
+          },
+          "metin": {
+            "tr": "Perdeler açık, oda havalanır. Öğle arası için baş, boyun ve omuz masajı.",
+            "en": "Curtains open, the room is aired. A head, neck and shoulder massage for a lunch break.",
+            "ar": "الستائر مفتوحة والغرفة تتجدد هواؤها. تدليك الرأس والرقبة والكتفين لاستراحة الغداء."
+          },
+          "img": "/img/otel-oda-2.webp"
+        },
+        {
+          "etiket": "16:00",
+          "ikon": "wb_sunny",
+          "baslik": {
+            "tr": "İkindi",
+            "en": "Afternoon",
+            "ar": "العصر"
+          },
+          "metin": {
+            "tr": "Perdeler yarıya iner, taşlar ısıtılmaya başlar. Klasik masaj için sakin saatler.",
+            "en": "Curtains half down, the stones start warming. Quiet hours for a classic massage.",
+            "ar": "تُسدل الستائر إلى النصف وتبدأ الحجارة بالتسخين. ساعات هادئة للتدليك الكلاسيكي."
+          },
+          "img": "/img/klinik-tedavi-3.webp"
+        },
+        {
+          "etiket": "18:30",
+          "ikon": "wb_twilight",
+          "baslik": {
+            "tr": "Gün batımı",
+            "en": "Sunset",
+            "ar": "الغروب"
+          },
+          "metin": {
+            "tr": "Kehribar lambalar yanar; sıcak taş seansları bu saatte başlar. En çok istenen dilim.",
+            "en": "The amber lamps come on; hot stone sessions start now. The most requested slot.",
+            "ar": "تُضاء المصابيح الكهرمانية وتبدأ جلسات الحجارة الساخنة. أكثر الأوقات طلبًا."
+          },
+          "img": "/img/guzellik-hizmet-masaj.webp"
+        },
+        {
+          "etiket": "20:30",
+          "ikon": "nights_stay",
+          "baslik": {
+            "tr": "Mum ışığı",
+            "en": "Candlelight",
+            "ar": "ضوء الشموع"
+          },
+          "metin": {
+            "tr": "Yalnız mum ve alçak müzik. Kehribar akşamı ritüeli için ayrılan saat.",
+            "en": "Only candles and soft music. The hour kept for the Kehribar evening ritual.",
+            "ar": "شموع وموسيقى هادئة فقط. الساعة المخصصة لطقس أمسية كهرمان."
+          },
+          "img": "/img/guzellik-hizmet-spa.webp"
+        },
+        {
+          "etiket": "22:00",
+          "ikon": "bedtime",
+          "baslik": {
+            "tr": "Kapanış çayı",
+            "en": "Closing tea",
+            "ar": "شاي الختام"
+          },
+          "metin": {
+            "tr": "Son seans 22:00’de başlar; çıkışta ıhlamur ikram edilir.",
+            "en": "The last session starts at 22:00; linden tea is served on the way out.",
+            "ar": "تبدأ آخر جلسة في الساعة 22:00، ويُقدَّم شاي الزيزفون عند المغادرة."
+          },
+          "img": "/img/guzellik-galeri-2.webp"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      },
+      "id": "i1qxmo",
+      "path": "zaman-kadran",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Randevu Zaman Ekseni — günün saat cetvelinde süre bloğu",
+      "description": "Kart içinde üstte hizmet çipleri, tarih ve uzman; ortada günün açılış–kapanış aralığını orantılı çizen yatay saat cetveli: saat çizikleri, taralı mola bölgeleri ve konumu saatine göre hesaplanmış saat kutuları. Saat seçilince seçili hizmetin süresi kadar uzunlukta süre bloğu eksende belirir, «09:00 – 10:00» okuması yazılır; süre mola ya da kapanışa taşarsa blok uyarı desenine döner. Altta üç sütunlu bilgiler, not, KVKK ve gönder. Mobilde eksen yatay kayar. JS yokken saat kutuları normal radyo olarak seçilir. randevu-saat-izgara saatleri gün dilimi sütunlarına, randevu-ajanda dikey listeye dizer; bu modül saatleri gerçek zaman ölçeğinde (konum = saat, genişlik = süre) tek eksene yerleştirir, molaları taralı bölge olarak gösterir ve seçili hizmet süresini eksende blok olarak çizer (eksen parçası) — süre taşmasını görsel uyaran tek modül. Sunucusuz gönderim (formAction JSON POST › WhatsApp › .ics › mailto), kapalı gün denetimi, KVKK onayı. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Gönderim yolu yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "view_timeline",
+      "category": "randevu",
+      "subCategory": "time-axis",
+      "tags": [
+        "randevu",
+        "time-axis",
+        "timeline",
+        "duration",
+        "ruler",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Randevu",
+          "en": "Booking",
+          "ar": "الحجز"
+        },
+        "baslik": {
+          "tr": "Seansınızı saat ekseninde görün",
+          "en": "See your session on the time axis",
+          "ar": "شاهد جلستك على المحور الزمني"
+        },
+        "metin": {
+          "tr": "Ritüeli seçin, saate dokunun: süresi eksende blok olarak çizilir; 17:00–17:30 arası oda havalandırma molasıdır. Talep WhatsApp’ta hazır açılır, oda onaylar. Bu form demodur; veri saklanmaz. Masaj tıbbi bir tedavi değildir; ağrı, hastalık ya da gebelik durumunda önce hekiminize danışın.",
+          "en": "Pick a ritual and tap a time: its length is drawn as a block on the axis; 17:00–17:30 is the room’s airing break. The request opens ready in WhatsApp and the room confirms it. This form is a demo; no data is stored. Massage is not a medical treatment; if you have pain, an illness or are pregnant, consult your doctor first.",
+          "ar": "اختر الطقس والمس الوقت: تُرسم مدته كتلةً على المحور؛ والفترة 17:00–17:30 استراحة لتهوية الغرفة. يُفتح الطلب جاهزًا في واتساب وتؤكده الغرفة. هذا النموذج تجريبي؛ لا تُحفظ أي بيانات. التدليك ليس علاجًا طبيًا؛ في حال وجود ألم أو مرض أو حمل استشر طبيبك أولًا."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "asimAd": {
+          "tr": "süre molaya ya da kapanışa taşıyor",
+          "en": "the session runs into the break or closing time",
+          "ar": "الجلسة تتجاوز وقت الاستراحة أو الإغلاق"
+        },
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "phone": "+90 232 046 61 61",
+        "whatsapp": "902320466161",
+        "email": "oda@kehribarmasaj.example",
+        "submit": "whatsapp",
+        "location": {
+          "tr": "Kıbrıs Şehitleri Caddesi No: 61, Kat 2, Alsancak, Konak, İzmir (kurgusal adres)",
+          "en": "61 Kibris Sehitleri Street, Floor 2, Alsancak, Konak, Izmir (fictional address)",
+          "ar": "شارع شهداء قبرص رقم 61، الطابق 2، ألسانجاك، كوناك، إزمير (عنوان افتراضي)"
+        },
+        "leadDays": 0,
+        "maxDays": 30,
+        "hours": {
+          "days": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start": "13:00",
+          "end": "23:00",
+          "slot": 30,
+          "breaks": [
+            {
+              "start": "17:00",
+              "end": "17:30"
+            }
+          ]
+        },
+        "closed": [
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "staff": [
+          {
+            "id": "s",
+            "name": "Selin Aksoy",
+            "role": {
+              "tr": "Masaj terapisti",
+              "en": "Massage therapist",
+              "ar": "معالجة بالتدليك"
+            }
+          },
+          {
+            "id": "d",
+            "name": "Deniz Karaman",
+            "role": {
+              "tr": "Sıcak taş",
+              "en": "Hot stones",
+              "ar": "الحجارة الساخنة"
+            }
+          },
+          {
+            "id": "n",
+            "name": "Nil Sarp",
+            "role": {
+              "tr": "Akşam ritüelleri",
+              "en": "Evening rituals",
+              "ar": "طقوس المساء"
+            }
+          }
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin yalnız bu randevu talebi için işlenmesine ilişkin aydınlatma metnini okudum.",
+            "en": "I have read the privacy notice on how my personal data is processed only for this booking request.",
+            "ar": "لقد قرأتُ إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لطلب الحجز هذا فقط."
+          },
+          "href": "kisiselveriler"
+        },
+        "kvkkLink": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice",
+          "ar": "إشعار الخصوصية"
+        },
+        "successText": {
+          "tr": "Talebiniz hazırlandı; randevu odanın onayıyla kesinleşir. (Demo)",
+          "en": "Your request is ready; the booking is confirmed once the room approves it. (Demo)",
+          "ar": "طلبك جاهز؛ ويصبح الحجز مؤكدًا بعد موافقة الغرفة. (تجريبي)"
+        },
+        "konu": {
+          "tr": "Seans talebi",
+          "en": "Session request",
+          "ar": "طلب جلسة"
+        }
+      },
+      "data": [
+        {
+          "ad": {
+            "tr": "Kehribar akşamı",
+            "en": "Kehribar evening",
+            "ar": "أمسية كهرمان"
+          },
+          "sure": 90,
+          "fiyat": 2400,
+          "ikon": "local_fire_department",
+          "metin": {
+            "tr": "Ayak banyosu, yağ masajı, dinlenme.",
+            "en": "Foot bath, oil massage, rest.",
+            "ar": "حمّام القدمين وتدليك بالزيت واستراحة."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Klasik masaj",
+            "en": "Classic massage",
+            "ar": "التدليك الكلاسيكي"
+          },
+          "sure": 60,
+          "fiyat": 1500,
+          "ikon": "spa",
+          "metin": {
+            "tr": "Orta baskı, tüm vücut.",
+            "en": "Medium pressure, full body.",
+            "ar": "ضغط متوسط للجسم كله."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Sıcak taş",
+            "en": "Hot stones",
+            "ar": "الحجارة الساخنة"
+          },
+          "sure": 75,
+          "fiyat": 2100,
+          "ikon": "heat",
+          "metin": {
+            "tr": "Ilık bazalt taşlarla.",
+            "en": "With warm basalt stones.",
+            "ar": "بحجارة بازلتية دافئة."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Baş, boyun, omuz",
+            "en": "Head, neck, shoulders",
+            "ar": "الرأس والرقبة والكتفان"
+          },
+          "sure": 30,
+          "fiyat": 850,
+          "ikon": "self_improvement",
+          "metin": {
+            "tr": "Kısa iş çıkışı molası.",
+            "en": "A short after-work break.",
+            "ar": "استراحة قصيرة بعد العمل."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Çift odası",
+            "en": "Couples’ room",
+            "ar": "غرفة الأزواج"
+          },
+          "sure": 60,
+          "fiyat": 2800,
+          "ikon": "group",
+          "metin": {
+            "tr": "İki kişi, yan yana iki masa.",
+            "en": "Two people, two tables side by side.",
+            "ar": "شخصان على طاولتين متجاورتين."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ad": "hizmet adı (dil sözlüğü, zorunlu) — eski `services[].name`",
+          "sure": "dakika — eski `duration`",
+          "fiyat": "sayı (sayfa diliyle biçimlenir) — eski `price`",
+          "ikon": "Material Symbols adı",
+          "metin": "kısa açıklama (dil sözlüğü)",
+          "img": "görsel (destekleyen yerleşimde)"
+        }
+      },
+      "id": "r1spc9",
+      "path": "randevu-zaman-ekseni",
+      "local": "body",
+      "index": 18
+    }
+  ]
+}
