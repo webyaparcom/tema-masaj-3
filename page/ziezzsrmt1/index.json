@@ -3,17 +3,23 @@
   "name": {
     "tr": "Seans",
     "en": "Book",
-    "ar": "حجز"
+    "ar": "حجز",
+    "de": "Sitzung",
+    "ru": "Сеанс"
   },
   "description": {
     "tr": "Saat eksenli randevu talebi (demo).",
     "en": "Time-axis booking request (demo).",
-    "ar": "طلب حجز على محور زمني (تجريبي)."
+    "ar": "طلب حجز على محور زمني (تجريبي).",
+    "de": "Terminanfrage mit Zeitachse (Demo).",
+    "ru": "Запрос на запись с временной осью (демо)."
   },
   "keyword": {
     "tr": "masaj randevusu",
     "en": "massage booking",
-    "ar": "حجز تدليك"
+    "ar": "حجز تدليك",
+    "de": "Massagetermin",
+    "ru": "запись на массаж"
   },
   "path": "teklif-al",
   "icon": "event_available",
@@ -32,7 +38,9 @@
   "title": {
     "tr": "Seans",
     "en": "Book",
-    "ar": "حجز"
+    "ar": "حجز",
+    "de": "Sitzung",
+    "ru": "Сеанс"
   },
   "date": "2026-11-16T20:21:37.651Z",
   "update": "2026-11-16T20:27:40.985Z"

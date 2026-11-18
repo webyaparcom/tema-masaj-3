@@ -3,17 +3,23 @@
   "name": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "description": {
     "tr": "Vizyonumuz",
     "en": "Our vision",
-    "ar": "رؤيتنا"
+    "ar": "رؤيتنا",
+    "de": "Unsere Vision",
+    "ru": "Наше видение"
   },
   "keyword": {
     "tr": "Vizyon",
     "en": "vision, our vision, goals",
-    "ar": "الرؤية, رؤيتنا, الأهداف"
+    "ar": "الرؤية, رؤيتنا, الأهداف",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "path": "vizyon",
   "icon": "visibility",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Vizyonumuz</h2>\n<p>Alsancak’ta akşamları da randevu verilebilen, şeffaf fiyatlı bir masaj odası olmak.</p>",
     "en": "<h2>Our vision</h2>\n<p>To be a massage room in Alsancak that takes evening bookings and shows its prices openly.</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون غرفة تدليك في ألسانجاك تستقبل حجوزات المساء وتعرض أسعارها بوضوح.</p>"
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون غرفة تدليك في ألسانجاك تستقبل حجوزات المساء وتعرض أسعارها بوضوح.</p>",
+    "de": "<h2>Unsere Vision</h2>\n<p>Ein Massagezimmer in Alsancak zu sein, das auch abends Termine anbietet und transparente Preise hat.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Стать массажным кабинетом в Алсанкаке, где можно записаться и вечером, с прозрачными ценами.</p>"
   },
   "title": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "date": "2026-11-16T20:21:37.499Z",
   "update": "2026-11-16T20:27:40.996Z",

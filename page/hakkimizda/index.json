@@ -2,7 +2,9 @@
   "name": {
     "tr": "Oda",
     "en": "Space",
-    "ar": "غرفة"
+    "ar": "غرفة",
+    "de": "Raum",
+    "ru": "Пространство"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Masaj odasının sahne sahne turu ve gün boyu ışık saatleri.",
     "en": "A scene-by-scene tour of the massage room and its light through the day.",
-    "ar": "جولة مشهدًا بمشهد في غرفة التدليك وضوئها على مدار اليوم."
+    "ar": "جولة مشهدًا بمشهد في غرفة التدليك وضوئها على مدار اليوم.",
+    "de": "Eine Szene-für-Szene-Tour durch den Massageraum und das Licht im Tagesverlauf.",
+    "ru": "Обзор массажной комнаты по сценам и освещение в течение дня."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Oda",
     "en": "Space",
-    "ar": "غرفة"
+    "ar": "غرفة",
+    "de": "Raum",
+    "ru": "Пространство"
   },
   "keyword": {
     "tr": "masaj odası, Alsancak",
     "en": "massage room, Alsancak",
-    "ar": "غرفة تدليك، ألسانجاك"
+    "ar": "غرفة تدليك، ألسانجاك",
+    "de": "Massageraum, Alsancak",
+    "ru": "массажный кабинет, Альсанджак"
   },
   "text": {},
   "update": "2026-11-16T20:27:40.981Z",

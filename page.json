@@ -5,12 +5,16 @@
       "name": {
         "tr": "Ritüeller",
         "en": "Rituals",
-        "ar": "طقوس"
+        "ar": "طقوس",
+        "de": "Rituale",
+        "ru": "Ритуалы"
       },
       "description": {
         "tr": "Dakikası belli masaj ritüelleri ve KDV dahil kurgusal fiyatlar.",
         "en": "Massage rituals timed to the minute, with fictional prices incl. VAT.",
-        "ar": "طقوس تدليك محددة بالدقيقة وأسعار افتراضية شاملة الضريبة."
+        "ar": "طقوس تدليك محددة بالدقيقة وأسعار افتراضية شاملة الضريبة.",
+        "de": "Massagerituale mit bekannter Minutenzahl und fiktive Preise inklusive MwSt.",
+        "ru": "Массажные ритуалы с известной длительностью и вымышленные цены с НДС."
       },
       "path": "hizmetler",
       "icon": "spa",
@@ -29,7 +33,9 @@
       "name": {
         "tr": "Oda",
         "en": "Space",
-        "ar": "غرفة"
+        "ar": "غرفة",
+        "de": "Raum",
+        "ru": "Пространство"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -50,7 +56,9 @@
       "description": {
         "tr": "Masaj odasının sahne sahne turu ve gün boyu ışık saatleri.",
         "en": "A scene-by-scene tour of the massage room and its light through the day.",
-        "ar": "جولة مشهدًا بمشهد في غرفة التدليك وضوئها على مدار اليوم."
+        "ar": "جولة مشهدًا بمشهد في غرفة التدليك وضوئها على مدار اليوم.",
+        "de": "Eine Szene-für-Szene-Tour durch den Massageraum und das Licht im Tagesverlauf.",
+        "ru": "Обзор массажной комнаты по сценам и освещение в течение дня."
       }
     },
     {
@@ -58,12 +66,16 @@
       "name": {
         "tr": "Seans",
         "en": "Book",
-        "ar": "حجز"
+        "ar": "حجز",
+        "de": "Sitzung",
+        "ru": "Сеанс"
       },
       "description": {
         "tr": "Saat eksenli randevu talebi (demo).",
         "en": "Time-axis booking request (demo).",
-        "ar": "طلب حجز على محور زمني (تجريبي)."
+        "ar": "طلب حجز على محور زمني (تجريبي).",
+        "de": "Terminanfrage mit Zeitachse (Demo).",
+        "ru": "Запрос на запись с временной осью (демо)."
       },
       "path": "teklif-al",
       "icon": "event_available",
@@ -82,7 +94,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "تواصل"
+        "ar": "تواصل",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -103,7 +117,9 @@
       "description": {
         "tr": "Telefon, WhatsApp, adres ve saatler.",
         "en": "Phone, WhatsApp, address and hours.",
-        "ar": "الهاتف وواتساب والعنوان والساعات."
+        "ar": "الهاتف وواتساب والعنوان والساعات.",
+        "de": "Telefon, WhatsApp, Adresse und Öffnungszeiten.",
+        "ru": "Телефон, WhatsApp, адрес и часы работы."
       }
     }
   ],

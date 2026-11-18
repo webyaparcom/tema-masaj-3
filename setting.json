@@ -4,12 +4,16 @@
   "description": {
     "tr": "Kehribar Masaj Odası: İzmir Alsancak’ta akşam saatlerine kadar açık, loş ışıklı masaj odası; dakikası belli ritüeller ve saat eksenli randevu. Demo site; Görseller temsilîdir; içerik ve fiyatlar kurgusaldır.",
     "en": "Kehribar Massage Room: a dim-lit massage room in Alsancak, Izmir, open into the evening; rituals timed to the minute and a time-axis booking. Demo site; Images are representative; content and prices are fictional.",
-    "ar": "غرفة كهرمان للتدليك: غرفة تدليك بإضاءة خافتة في ألسانجاك بإزمير تفتح حتى المساء؛ طقوس محددة بالدقيقة وحجز على محور زمني. موقع تجريبي؛ الصور تمثيلية؛ والمحتوى والأسعار افتراضية."
+    "ar": "غرفة كهرمان للتدليك: غرفة تدليك بإضاءة خافتة في ألسانجاك بإزمير تفتح حتى المساء؛ طقوس محددة بالدقيقة وحجز على محور زمني. موقع تجريبي؛ الصور تمثيلية؛ والمحتوى والأسعار افتراضية.",
+    "de": "Kehribar Massage Room: Massagezimmer in Alsancak, Izmir, abends geöffnet; dimmlicht, minutengenaue Rituale und zeitbasierte Buchung. Demo-Seite; Bilder sind repräsentativ; Inhalte und Preise sind fiktiv.",
+    "ru": "Kehribar Massage Room: массажная комната в Алсанжаке, Измир, открыта до вечера; приглушённый свет, ритуалы с точностью до минуты и запись по времени. Демо-сайт; изображения иллюстративные; контент и цены вымышленные."
   },
   "keyword": {
     "tr": "masaj, akşam masajı, aromaterapi, sıcak taş masajı, İzmir Alsancak masaj",
     "en": "massage, evening massage, aromatherapy, hot stone massage, Izmir Alsancak massage",
-    "ar": "تدليك، تدليك مسائي، علاج بالروائح، تدليك بالحجر الساخن، تدليك ألسانجاك إزمير"
+    "ar": "تدليك، تدليك مسائي، علاج بالروائح، تدليك بالحجر الساخن، تدليك ألسانجاك إزمير",
+    "de": "Massage, Abendmassage, Aromatherapie, Hot-Stone-Massage, Massage İzmir Alsancak",
+    "ru": "массаж, вечерний массаж, ароматерапия, массаж горячими камнями, массаж Измир Алсанджак"
   },
   "category": "Kurumsal",
   "name": "Kehribar Masaj",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,
