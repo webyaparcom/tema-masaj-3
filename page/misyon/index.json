@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Günün sonunda sakin, loş ve dakikası önceden belli bir masaj saati sunmak.</p>",
     "en": "<h2>Our mission</h2>\n<p>To offer a calm, dim-lit massage hour at the end of the day, with every minute known in advance.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>أن نقدّم في نهاية اليوم ساعة تدليك هادئة بإضاءة خافتة ودقائقها معروفة مسبقًا.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>أن نقدّم في نهاية اليوم ساعة تدليك هادئة بإضاءة خافتة ودقائقها معروفة مسبقًا.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Am Ende des Tages eine ruhige, gedämpfte Massagestunde anzubieten, deren Minuten im Voraus feststehen.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>В конце дня дарить спокойный, приглушённо освещённый час массажа, минуты которого известны заранее.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T20:21:37.499Z",
   "update": "2026-11-16T20:27:40.994Z",

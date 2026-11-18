@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "description": {
     "tr": "Kalite politikamız",
     "en": "Our quality policy",
-    "ar": "سياسة الجودة لدينا"
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "ru": "Наша политика качества"
   },
   "keyword": {
     "tr": "Kalite Politikamız",
     "en": "quality policy, quality, continuous improvement",
-    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "path": "kalitepolitikamiz",
   "icon": "verified",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Kalite Politikamız</h2>\n<p>Her konuğa yeni havlu ve çarşaf, yağ içeriğinin önceden paylaşılması, sağlık sorusunda hekim yönlendirmesi.</p>",
     "en": "<h2>Our quality policy</h2>\n<p>Fresh towels and sheets for every guest, oil ingredients shared beforehand and a referral to a doctor for any health question.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>مناشف وشراشف جديدة لكل ضيف، ومشاركة مكونات الزيوت مسبقًا، والإحالة إلى الطبيب في أي سؤال صحي.</p>"
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>مناشف وشراشف جديدة لكل ضيف، ومشاركة مكونات الزيوت مسبقًا، والإحالة إلى الطبيب في أي سؤال صحي.</p>",
+    "de": "<h2>Unsere Qualitätspolitik</h2>\n<p>Für jeden Gast neue Handtücher und Laken, vorab offengelegte Ölzusammensetzung, Verweis an den Arzt bei Gesundheitsfragen.</p>",
+    "ru": "<h2>Наша политика качества</h2>\n<p>Новые полотенца и простыни для каждого гостя, заранее раскрываемый состав масел, направление к врачу при вопросах о здоровье.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "date": "2026-11-16T20:21:37.499Z",
   "update": "2026-11-16T20:27:40.997Z",

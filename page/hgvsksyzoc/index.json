@@ -3,17 +3,23 @@
   "name": {
     "tr": "Ritüeller",
     "en": "Rituals",
-    "ar": "طقوس"
+    "ar": "طقوس",
+    "de": "Rituale",
+    "ru": "Ритуалы"
   },
   "description": {
     "tr": "Dakikası belli masaj ritüelleri ve KDV dahil kurgusal fiyatlar.",
     "en": "Massage rituals timed to the minute, with fictional prices incl. VAT.",
-    "ar": "طقوس تدليك محددة بالدقيقة وأسعار افتراضية شاملة الضريبة."
+    "ar": "طقوس تدليك محددة بالدقيقة وأسعار افتراضية شاملة الضريبة.",
+    "de": "Massagerituale mit bekannter Minutenzahl und fiktive Preise inklusive MwSt.",
+    "ru": "Массажные ритуалы с известной длительностью и вымышленные цены с НДС."
   },
   "keyword": {
     "tr": "masaj ritüeli, masaj fiyatları",
     "en": "massage ritual, massage prices",
-    "ar": "طقوس التدليك، أسعار التدليك"
+    "ar": "طقوس التدليك، أسعار التدليك",
+    "de": "Massage-Ritual, Massage-Preise",
+    "ru": "ритуал массажа, цены на массаж"
   },
   "path": "hizmetler",
   "icon": "spa",
@@ -32,7 +38,9 @@
   "title": {
     "tr": "Ritüeller",
     "en": "Rituals",
-    "ar": "طقوس"
+    "ar": "طقوس",
+    "de": "Rituale",
+    "ru": "Ритуалы"
   },
   "date": "2026-11-16T20:21:37.641Z",
   "update": "2026-11-16T20:27:40.975Z"
